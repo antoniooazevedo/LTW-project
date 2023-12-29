@@ -1,0 +1,146 @@
+.container {
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 24px;
+    width: 260px;
+    height: 330px;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 22px;
+    border-radius: 8px;
+    align-items: center;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.slideB:last-of-type, .slideB:first-of-type {
+    display: none;
+}
+
+.slideB, .slideBL {
+    border-radius: 17px;
+    height: 320px;
+    opacity: 18%;
+    cursor: pointer;
+}
+.slideB{
+    border-right: white;
+    margin-right: 0.5em;
+}
+
+.slideBL {
+    border-left: white;
+}
+.slideB:hover, .slideBL:hover {
+    opacity: 50%;
+    transition: opacity 0.5s ease-in;
+}
+
+.slideB:last-child {
+display: none
+}
+
+.slideBL:first-child {
+display: none
+}
+
+.card {
+    scroll-snap-align: start;
+    border: 2px solid #252525;
+    box-sizing: border-box;
+    width: 260px;
+    height: 320px;
+    background: white;
+    border-radius: 17px;
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex: 0 0 100%;
+    padding: 24px;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.content, .statistics{
+    display: grid;
+    grid-template-rows: 15% 1fr;
+    height: 100%;
+    width: 100%;
+    gap: 0.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #929292;
+}
+
+.statistics header {
+    grid-template-columns: 1fr;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+}
+
+.statistics h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #252525;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.content header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.15em;
+    color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.container a {
+    text-decoration: none;
+    margin-right: 1em;
+    margin-left: 1em;
+}
+
+.content header h2 {
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+    color: lightgrey;
+}
+
+
+.statistics p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+
+
+.content p {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    grid-row: 2/3;
+    font-size: 1em;
+    text-align: left;
+    justify-content: flex-start;
+    word-break: break-all;
+}

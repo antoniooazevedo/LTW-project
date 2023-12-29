@@ -1,0 +1,171 @@
+#filterForm, #sortForm{
+    display:none;
+}
+
+#filter{
+    margin-bottom: 1em;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .header h1 {
+    margin: 0;
+  }
+  
+  /* Filtering box styles */
+  .filtering-box {
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .filtering-box select {
+    margin-right: 10px;
+  }
+  
+  /* Ticket content box styles */
+  .ticketContentBox {
+    margin-bottom: 20px;
+  }
+  
+  .ticketContentBox h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .ticketContentBox .ticket {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer styles */
+  .footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 5px 10px;
+    background-color: #6f0720;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #6f0720;
+}
+
+.refToTicketDetail {
+    text-decoration: none;
+    color: #333;
+}
+
+.ticket {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+}
+
+.ticket h2 {
+    margin-top: 0;
+}
+
+.ticket p {
+    margin: 5px 0;
+}
+
+.hashtags {
+    margin-top: 10px;
+}
+
+.hashtags p {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.hashtags span {
+    display: inline-block;
+    background-color: #ddd;
+    padding: 3px 8px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.createATicketButton {
+    margin-top: 20px;
+    border: none;
+
+}
+
+.createATicketButton a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    background-color: #6f0720;
+    border-radius: 4px;
+}
+
+.createATicketButton a:hover {
+    background-color: #45a049;
+}
+
+.ticketPage {
+    display: flex;
+    flex-direction: column; 
+    width: 85%;
+
+    margin: 0 auto;
+}
+
+header {
+    padding: 20px;
+
+}
+
+footer {
+    
+    padding: 10px;
+}
+
+main {
+    flex-grow: 1;
+}
+

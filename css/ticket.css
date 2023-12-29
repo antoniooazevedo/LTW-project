@@ -1,0 +1,257 @@
+.edit{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.editForm{
+    display: none;
+}
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+}
+
+footer {
+    padding: 10px;
+}
+
+.ticketDetails{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+    align-items: center;
+}
+.ticketContainerBox{
+    width: 97%;
+    padding: 1em 1em;
+    justify-content: center;
+    border-radius: 17px;
+    border: rgba(211, 211, 211, 0.79) solid 1px;
+    margin-bottom: 1em;
+    background: #ececec;
+}
+.ticketDetails h2{
+    font-size: 2rem;
+    margin-bottom: 0.2em;
+    margin-top: 0;
+}
+
+.ticketDetails h3{
+    font-size: 0.875rem;
+    margin-left: 0.5em;
+}
+
+.editable{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+}
+
+.infoHeading{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.infoHeading p{
+    color: #161616;
+    font-size: 12px;
+}
+
+.authorInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    height: 5em;
+}
+
+.editForm{
+    margin: 0 0 0 0.5em;
+}
+
+#priorityChangeForm{
+    margin-right: 0.5em;
+    margin-left: 0;
+}
+
+.authorInfo img{
+    border-radius: 50%;
+}
+
+.status-priority{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.status-priority .editable{
+    height: 100%;
+}
+
+fieldset{
+    font-size: 15px;
+    margin: 1em 0;
+}
+
+fieldset p{
+    word-wrap: break-word;
+    font-size: 16px;
+}
+
+.otherInfos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#agentDivChange, #departmentDivChange{
+    display: flex;
+    justify-content: center;
+    width: 45%;
+    border-radius: 17px;
+    background: #E6E6E6;
+    margin-bottom: 1em;
+    flex-wrap: wrap;
+}
+
+.hashtags {
+    display: flex;
+    flex-direction: row;
+}
+
+.hashtags span{
+    margin-right: 0.5em;
+    width: auto;
+    font-size: 12px;
+    border-bottom: #252525 solid 1px;
+    border-radius: 0;
+}
+
+#hashtagEdit{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.fileName {
+    display: none;
+}
+
+.fileDownload a{
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#responseForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#responseForm #comment{
+    word-wrap: break-word;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    align-self: flex-start;
+}
+
+#responseForm label{
+    display: none;
+}
+
+#responseForm input[type="submit"], .toggleB{
+    width: 100%;
+    font-size: 15px;
+    border-radius: 17px;
+    cursor: pointer;
+    border: #252525 solid 3px;
+}
+
+.log-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: #252525 solid 1px;
+}
+
+.log-list{
+    margin: 1em 0;
+    padding: 0;
+}
+.toggleB{
+    height: 30px;
+    width: 170px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+label input{
+    display: none;
+}
+
+.responseToggle, .logToggle{
+    font-size: 15px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 13px;
+    margin: 0;
+}
+
+.responseToggle{
+    background: white;
+    color: #252525;
+
+}
+
+.logToggle{
+    background: #252525;
+    color: white;
+}
+
+#responseDiv{
+    display: none;
+}
+
+.hashtags{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tag{
+    display: inline-block;
+}
+
+#deleteTicket{
+    font-size: 25px;
+    color: red;
+}
+
+.auxDiv{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
